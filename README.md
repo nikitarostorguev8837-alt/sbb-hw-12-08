@@ -10,6 +10,7 @@
 
 ### Задание 2. PostgreSQL  
 
+1.
 ```bash
 pg_dump -U postgres dbname > dumpfile.sql
 psql -U postgres -d dbname < dumpfile.sql
@@ -18,6 +19,7 @@ psql -U postgres -d dbname < dumpfile.sql
 
 ### Задание 3. MySQL  
 
+2.
 ```bash
 mysqlbackup --backup-dir=/full-backup backup
 mysqlbackup --incremental --incremental-base=dir:/full-backup --backup-dir=/incr-backup backup   
